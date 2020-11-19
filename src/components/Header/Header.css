@@ -1,0 +1,92 @@
+header {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header_main {
+    background-image: url(../Header/headBack.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*  TEXT ---------------------------------------------------------  */
+
+.coffee_heart {
+    padding-top: 20px;
+    font-size: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.coffee_togo_text {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+
+content h1 {
+    padding: 0;
+    margin: 0;
+}
+
+/*  TEXT ---------------------------------------------------------  */
+
+
+
+.logo {
+    width: 20%;
+}
+
+.logo_img {
+    width: 80%;
+}
+
+.coffee_text_main {
+    width: 100%;
+    text-align: center;
+}
+
+content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+
+.button button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+.button button a {
+    text-decoration: none;
+    color: white;
+}
+

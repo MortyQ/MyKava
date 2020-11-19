@@ -1,0 +1,33 @@
+.navigation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+
+.div_button {
+    padding-left: 1rem;
+    height: 1rem;
+}
+
+.navigation nav div button {
+    color: thistle;
+    border: none;
+    background-color: white;
+    font-size: 30px;
+}
+
+.navigation nav div button:hover {
+    color: red;
+}
