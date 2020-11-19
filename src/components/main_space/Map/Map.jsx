@@ -20,7 +20,7 @@ const Map =({stateNav})=>{
     }
     const buttonesc = (<div className='buttonesc'><button onClick={hide} >X</button></div>)
 
-    //Ready Google Map
+    //Ready Google Map AAAAA
 
     return(
         <div className="main_body_block">
