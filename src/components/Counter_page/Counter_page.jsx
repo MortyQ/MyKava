@@ -20,19 +20,14 @@ const CounterPage =()=>{
 const counter_el =(img,numb,text)=> {
     
 const counter_plus =()=>{
-
     setState({
                 counter: numb + 1
             });  
    }
    const counter_minus =()=>{
-
-    
-    
        setState({
            counter: numb - 1
        }); 
-
    }
     
     return(
@@ -45,18 +40,8 @@ const counter_plus =()=>{
                     <span className='counter_numbers'>{state.counter}</span>
                     <p>{text}</p>
                 </div>
-
     )
 }
-
-
-
-
-
-
-
-
-
 
     return(
         <div className="counter_body">
