@@ -30,7 +30,7 @@ const counter_plus =()=>{
     
     
        setState({
-           counter: numb
+           counter: numb - 1
        }); 
 
    }
