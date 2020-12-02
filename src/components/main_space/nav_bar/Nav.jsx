@@ -9,8 +9,8 @@ const Nav =()=>{
 
     
     const [state, setState] =useState({
-            Map: true,
-            Coffee: false,
+            Map: false,
+            Coffee: true,
             Personal: false,
             Text: false,
     });

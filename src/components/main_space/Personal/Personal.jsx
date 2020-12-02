@@ -8,7 +8,7 @@ const Personal =({stateNav})=>{
             Personal: false,
         })
     }
-    const buttonesc = (<div className='buttonesc'><button onClick={hide} >X</button></div>)
+    const buttonesc = (<div className='buttonesc'><button onClick={hide} >.</button></div>)
 
 
 

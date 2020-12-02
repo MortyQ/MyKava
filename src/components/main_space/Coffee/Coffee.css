@@ -1,0 +1,140 @@
+ul {
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.main_body_block {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.coffee_main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+/* COMPONENT */
+
+.coffee_body_start {
+    width: 19%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.coffee_header {
+    width: 100%;
+    height: 70%;
+    /* background-color: teal; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.coffee_header img {
+    width: 55%;
+    position: absolute;
+}
+
+.coffee_text p {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.coffee_footer {
+    width: 100%;
+    height: 30%;
+    
+    /* background-color: #ecf0f1; */
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: white;
+
+    
+}
+
+.region_coffee {
+    font-size: 1.2rem;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.2em;
+    text-align: start;
+}
+
+.coffee_region_span{ 
+    font-size: 0.8rem;
+}
+
+.tastes {
+    font-size: 1rem;
+    font-family: monospace;
+    color: black;
+}
+
+.coffee_footer_none {
+    width: 100%;
+    height: 90%;
+    /* background-color: #ecf0f1; */
+    display: none;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: start;
+    padding-top: 0.3rem;
+    background-color: white;
+   
+}
+
+
+
+.coffee_footer:hover {
+    height: 80%;
+  
+    z-index: 99;
+    transition: 500ms;
+    
+    border-top: none;
+ /* Цвет фона */
+
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+padding: 3rem;
+}
+.coffee_footer:hover .region_coffee {
+    font-size: 1.5rem;
+}
+
+.coffee_footer:hover li {
+    font-size: 1.2rem;
+    color: teal;
+}
+
+
+
+/* .coffee_footer:hover .coffee_footer_none{
+    display: block;
+    z-index: 9999;
+    
+}
+
+.coffee_footer:hover .coffee_header{
+    display: none;
+}
+ */
+
+ .coffee_body_start:hover .coffee_footer_none {
+     display: block;
+     z-index: 9999;
+ }
+
+ .coffee_body_start:hover .coffee_header {
+     display: none;
+ }
